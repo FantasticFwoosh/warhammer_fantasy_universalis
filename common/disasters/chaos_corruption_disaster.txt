@@ -42,15 +42,15 @@ chaos_corruption_disaster = {
 
 ### Good Religious Unity
 
-		modifier = {
-			factor = -0.25
-			religious_unity = 1.1
-		}
+#		modifier = {
+#			factor = -0.25
+#			religious_unity = 1.1
+#		}
 
-		modifier = {
-			factor = -0.25
-			religious_unity = 0.99
-		}
+#		modifier = {
+#			factor = -0.25
+#			religious_unity = 0.99
+#		}
 
 ### Desperate
 
@@ -115,16 +115,17 @@ chaos_corruption_disaster = {
 		global_unrest = 2
 		stability_cost_modifier = 0.1
 	}
-	on_start = 0 #chaos_corruption.1
+	on_start = chaos_corruption_events.1
 	on_end = 0 #chaos_corruption.9
 	on_monthly = {
+		events = { }
 		random_events = {
-			2000 = 0
-			100 = chaos_corruption.2
-			100 = chaos_corruption.3
-			100 = chaos_corruption.4
-			100 = chaos_corruption.5
-			100 = chaos_corruption.6
+			2500 = chaos_corruption_events.10
+			100 = chaos_corruption_events.2
+			100 = chaos_corruption_events.3
+			100 = chaos_corruption_events.4
+			100 = chaos_corruption_events.5
+			100 = chaos_corruption_events.6
 		}
 	}
 }

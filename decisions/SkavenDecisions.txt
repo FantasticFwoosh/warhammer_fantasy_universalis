@@ -12,6 +12,10 @@ country_decisions = {
 			}
 			is_colonial_nation = no
 			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				num_of_cities = 75
+			}
 		}
 		provinces_to_highlight = {
 			continent =  underempire
@@ -39,7 +43,7 @@ country_decisions = {
 			add_country_modifier = { name = centralization_modifier duration = 7300 }
 			add_prestige = 100
 		}
-		ai_will_do = { factor = 1 }
+		ai_will_do = { factor = 400 }
 		ai_importance = 400
 	}
 

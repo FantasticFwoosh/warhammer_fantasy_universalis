@@ -168,6 +168,9 @@
  A63_ADJ: "Nulner"
  A64_ADJ: "Argalies"
  A65_ADJ: "Vardanos"
+ A66_ADJ: "Brovskan"
+ A67_ADJ: "Akendorfer"
+ A68_ADJ: "Masserschlian"
  A69_ADJ: "Waldovian"
  A70_ADJ: "Molachian"
  A71_ADJ: "Eagle Confederate"
@@ -295,6 +298,7 @@
  B92:0 "Great Drake Host" 
  B93:0 "The Faithless" 
  B94:0 "Sortsvinaer" 
+ B95:0 "Fimdirach" 
  
  B97:0 "Maggot Host" 
  B98:0 "Befouled Warriors of Nurgle"
@@ -316,14 +320,18 @@
  B14_ADJ:0 "Barak Varr"
  B15_ADJ:0 "Drakk"
  B16_ADJ:0 "Mourkain"
- B17_ADJ:0 "Chaos Dwarven"
+ B17_ADJ:0 "Zharr Naggrundian"
  B18_ADJ:0 "Gretchin"
  B19_ADJ:0 "Greybeard"
  B20_ADJ:0 "Gorgothian"
- B21_ADJ:0 "Chaos Dwarven"
+ B21_ADJ:0 "Pigbarterite"
  B22_ADJ:0 "Azgorhian"
  B23_ADJ:0 "Darkholder"
  B24_ADJ:0 "Eyebiter"
+ B25_ADJ:0 "Redmaw"
+ B26_ADJ:0 "Horns of Hashut"
+ B27_ADJ:0 "Vorag"
+ B28_ADH:0 "Thunderguts"
  B29_ADJ:0 "Uzkulakian"
  B30_ADJ:0 "Dolgan"
  B31_ADJ:0 "Chernozavtra"
@@ -390,7 +398,7 @@
  B92_ADJ:0 "Galrauch's" 
  B93_ADJ:0 "Faithless" 
  B94_ADJ:0 "Sortsvinaer" 
- 
+ B95_ADJ:0 "Fimir" 
  
  B97_ADJ:0 "Maggot"
  B98_ADJ:0 "Befouled"
@@ -504,6 +512,7 @@
  H08:0 "Avelorn"
  H09:0 "Ellyrion"
  H10:0 "Saphery"
+ H11:0 "Ulthuan"
  H12:0 "Naggaroth"
  H13:0 "Ghrond"
  H14:0 "Karond Kar"
@@ -535,6 +544,7 @@
  H08_ADJ:0 "Avelorn"
  H09_ADJ:0 "Ellyrion"
  H10_ADJ:0 "Saphery"
+ H11_ADJ:0 "Asur"
  H12_ADJ:0 "Naggarothi"
  H13_ADJ:0 "Ghrondari"
  H14_ADJ:0 "Karondi"
@@ -610,8 +620,8 @@
  I52:0 "Sonaka"
  I53:0 "Izu"
  I54:0 "Imazi"
- I99:0 "Grand Cathay"
  
+ I97:0 "Osterlund"
  I98:0 "Ind"
  I99:0 "Grand Cathay"
  
@@ -671,7 +681,7 @@
  I54_ADJ:0 "Imazi"
  I99_ADJ:0 "Grand Cathayan"
  
- 
+ I97_ADJ:0 "Osterlunder"
  I98_ADJ:0 "Indish"
  I99_ADJ:0 "Cathayan"
  
@@ -726,6 +736,7 @@
  U49:0 "Clan Flem"
  U50:0 "Gangrous"
 
+ U96:0 "Dhrath-Zharr-Ankor"
  U97:0 "Ankhor Dumbaraz"
  U98:0 "Under-Empire"
  U99:0 "Karaz Ankor"
@@ -780,6 +791,7 @@
  U49_ADJ:0 "Flem"
  U50_ADJ:0 "Gangrous"
 
+ U96_ADJ:0 "Chaos Dawi"
  U97_ADJ:0 "Norse Dawi"
  U98_ADJ:0 "Skaven"
  U99_ADJ:0 "Dawi"
@@ -802,6 +814,7 @@
  V16:0 "Xeti"
  V17:0 "Spektazuma"
  V18:0 "Huatl"
+ V19:0 "Dreadfleet"
 
  V01_ADJ:0 "Pirate"
  V02_ADJ:0 "Amazon"
@@ -821,6 +834,7 @@
  V16_ADJ:0 "Xeti"
  V17_ADJ:0 "Spektazuma"
  V18_ADJ:0 "Huatl"
+ V19_ADJ:0 "Dreadfleetian"
     
  Z01:0 "Khemri"
  Z02:0 "Arkhan"
@@ -906,6 +920,7 @@
  Z82:0 "Teotiqua"
  Z83:0 "Bowmen of Oreon"
  
+ Z94:0 "Khuresh"
  Z95:0 "Dragon Isles"
  Z96:0 "Nippon"
  Z97:0 "Strygos"
@@ -996,6 +1011,7 @@
  Z82_ADJ:0 "Teotiqua"
  Z83_ADJ:0 "Bowmen of Oreon"
  
+ Z94_ADJ:0 "Khureshi"
  Z95_ADJ:0 "Tzlan"
  Z96_ADJ:0 "Nipponese"
  Z97_ADJ:0 "Strygian"

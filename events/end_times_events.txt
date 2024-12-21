@@ -164,10 +164,17 @@ province_event = {
 ### losing a war
 
 		modifier = {
-			factor = 100
+			factor = 1000000000
 			owner = {
 				is_at_war = yes
 				NOT = { war_score = -1 }
+			}
+		}
+
+		modifier = {
+			factor = 1000000000
+			owner = {
+				capital_scope = { NOT = { controlled_by = PREV } }
 			}
 		}
 
@@ -359,7 +366,7 @@ province_event = {
 				change_adm = 6
 				change_dip = 6
 				change_mil = 6
-				clear_scipted_personalities = yes
+				clear_scripted_personalities = yes
 				add_ruler_personality = everchosen_personality
 				add_ruler_personality = immortal_personality
 
@@ -772,13 +779,12 @@ country_event = {
 ## DISMANTLE EVERCHOSEN
 		every_country = {
 			limit = {
-				OR = {
-					personality = everchosen_personality
-					has_reform = everchosen_reform
-				}
+				has_reform = everchosen_reform
 			}
 			remove_government_reform = everchosen_reform
 			kill_ruler = yes
+			release_all_subjects = yes
+			release_all_possible_countries = yes
 
 		}
 

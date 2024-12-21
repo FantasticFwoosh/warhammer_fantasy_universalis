@@ -50,7 +50,14 @@ country_decisions = {
 			NOT = {
 				has_country_flag = restored_reman_empire_flag
 			}
-			owns = 590
+			OR= {
+				owns = 590
+				ai = no
+			}
+			OR = {
+				ai = no
+				num_of_cities = 100
+			}
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
@@ -71,7 +78,10 @@ country_decisions = {
 			NOT = {
 				exists = A68
 			}
-			religion = myrmidia
+			OR = {
+				religion = myrmidia
+				culture_group = tilean_group
+			}
 		}
 		provinces_to_highlight = {
 			AND = {
@@ -93,6 +103,10 @@ country_decisions = {
 			is_nomad = no
 			590 = {
 				is_state = yes
+			}
+			OR = {
+				religion = myrmidia
+				culture_group = tilean_group
 			}
 		}
 		effect = {
@@ -142,7 +156,7 @@ country_decisions = {
 			set_country_flag = restored_reman_empire_flag
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 400
 		}
 	}
 }

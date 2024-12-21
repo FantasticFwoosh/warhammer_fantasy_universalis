@@ -24,7 +24,7 @@ country_decisions = {
 				ai = no
 				AND = {
 					ai = yes
-					num_of_cities = 80
+					num_of_cities = 50
 				}
 			}
 			is_colonial_nation = no
@@ -167,28 +167,28 @@ country_decisions = {
 		}
 		ai_will_do = {
 			factor = 400
-			modifier = {
-				factor = 0
-				NOT = {
-					calc_true_if = {
-						owns_core_province = 862						#khemri
-						owns_core_province = 896						#Zandri
-						owns_core_province = 851						#Numas
-						owns_core_province = 920						#bhagar
-						owns_core_province = 931						#quatar
-						owns_core_province = 1071						#mahrak
-						owns_core_province = 1064						#rasetra
-						owns_core_province = 1058						#Lybaras
-						amount = 3
-					}
-				}
-			}
-			modifier = {
-				factor = 0
-				NOT = {
-					num_of_cities = 50
-				}
-			}
+#			modifier = {
+#				factor = 0
+#				NOT = {
+#					calc_true_if = {
+#						owns_core_province = 862						#khemri
+#						owns_core_province = 896						#Zandri
+#						owns_core_province = 851						#Numas
+#						owns_core_province = 920						#bhagar
+#						owns_core_province = 931						#quatar
+#						owns_core_province = 1071						#mahrak
+#						owns_core_province = 1064						#rasetra
+#						owns_core_province = 1058						#Lybaras
+#						amount = 3
+#					}
+#				}
+#			}
+#			modifier = {
+#				factor = 0
+#				NOT = {
+#					num_of_cities = 50
+#				}
+#			}
 		}
 	}
 }

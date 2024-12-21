@@ -15,7 +15,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1880;1878;sea;1277;-1;-1;-1;-1;nagarythe
 1873;1874;sea;1279;-1;-1;-1;-1;nagarythe
 2275;2266;sea;1337;-1;-1;-1;-1;darklands
-789;787;sea;4138;-1;-1;-1;-1;dark citadel
+789;787;sea;1653;-1;-1;-1;-1;dark citadel
 2206;2271;;-1;-1;-1;-1;-1
 2208;2267;;-1;-1;-1;-1;-1;
 2275;2266;;-1;-1;-1;-1;-1;
@@ -31,7 +31,11 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 4478;4500;;-1;-1;-1;-1;-1;underempire
 4515;4518;;-1;-1;-1;-1;-1;underempire
 4528;620;;-1;-1;-1;-1;-1;underempire
+4526;620;;-1;-1;-1;-1;-1;underempire
 4528;4526;;-1;-1;-1;-1;-1;underempire
+4582;4584;;-1;-1;-1;-1;-1;underempire
+4581;4279;;-1;-1;-1;-1;-1;underempire
+4716;4739;;-1;-1;-1;-1;-1;underempire
 4717;4575;;-1;-1;-1;-1;-1;Blisterdeep-undercity
 4718;981;;-1;-1;-1;-1;-1;Araby-undercity
 2442;4705;;-1;-1;-1;-1;-1;Quetza-undercity
@@ -75,4 +79,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1284;1326;canal;804;-1;-1;-1;-1;uzkulak_canal
 4445;4435;;-1;-1;-1;-1;-1;death's crossing
 1111;1221;sea;1373;-1;-1;-1;-1;Nagash Crossing
+2147;2126;sea;1333;-1;-1;-1;-1;scaled delta
+2147;2154;sea;1333;-1;-1;-1;-1;scaled delta
+2156;2154;sea;1333;-1;-1;-1;-1;scaled delta
 -1;-1;-1;-1;-1;-1;-1;-1;-1
